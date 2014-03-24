@@ -1,6 +1,6 @@
 require 'rails/generators'
 
-module BlacklightGallery
+module BlacklightFacetMultiselect
   class Install < Rails::Generators::Base
     def assets
     end

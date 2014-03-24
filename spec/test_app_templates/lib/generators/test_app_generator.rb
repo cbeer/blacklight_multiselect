@@ -13,7 +13,7 @@ class TestAppGenerator < Rails::Generators::Base
     generate 'blacklight:install'
   end
 
-  def run_gallery_install
+  def run_facet_install
     generate 'blacklight_facet_multiselect:install'
   end
 

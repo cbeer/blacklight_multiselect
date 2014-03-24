@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'blacklight/facet/multiselect/version'
+require 'blacklight/facet_multiselect/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "blacklight-facet-multiselect"
-  spec.version       = Blacklight::Facet::Multiselect::VERSION
+  spec.name          = "blacklight-facet_multiselect"
+  spec.version       = Blacklight::FacetMultiselect::VERSION
   spec.authors       = ["Chris Beer"]
   spec.email         = ["cabeer@stanford.edu"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
